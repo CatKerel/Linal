@@ -34,10 +34,11 @@ public:
     Vector3D operator/= (const double b);
 
 };
+
 Vector3D operator* (double a, const Vector3D& v);
 std::ostream& operator<<(std::ostream& os, const Vector3D& v);  //(õ; ó; z)
 std::istream& operator>>(std::istream& is, Vector3D& v);
+
 double scalarProduct(Vector3D v1, Vector3D v2);
 double getAngle(Vector3D v1, Vector3D v2);
 Vector3D vectorProduct(Vector3D v1, Vector3D v2);
-

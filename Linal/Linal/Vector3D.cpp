@@ -53,6 +53,13 @@ Vector3D Vector3D::operator*(const double a) const {
     return Vector3D(x2, y2, z2);
 }
 
+Vector3D Vector3D::operator/(const double a) const {
+    double x2 = x / a;
+    double y2 = y / a;
+    double z2 = z / a;
+    return Vector3D(x2, y2, z2);
+}
+
 Vector3D Vector3D::operator+=(const Vector3D& b) {
     x += b.x;
     y += b.y;
@@ -87,6 +94,7 @@ Vector3D operator*(double a, const Vector3D& v) {
     double z2 = a * v.getZ();
     return Vector3D(x2, y2, z2);
 }
+
 
 double scalarProduct(Vector3D v1, Vector3D v2) {
     return (v1.getX() * v2.getX() + v1.getY() * v2.getY() + v1.getZ() * v2.getZ());
