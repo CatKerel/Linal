@@ -138,11 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Vector2D.cpp" />
     <ClCompile Include="Vector3D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Matrix.h" />
     <ClInclude Include="Vector2D.h" />
     <ClInclude Include="Vector3D.h" />
   </ItemGroup>

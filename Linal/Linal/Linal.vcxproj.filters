@@ -21,6 +21,9 @@
     <ClInclude Include="Vector3D.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vector2D.cpp">
@@ -30,6 +33,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Vector3D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
